@@ -4,13 +4,12 @@ using namespace std;
 
 int main()
 {
-    //Commiting changes test :P
-    char first, middle, last;
+    string name, address, number;
 
-    first = 'A';
-    middle = 'R';
-    last = 'C';
+    name = "Ashley Coleman";
+    address = "12 Somewhere St.";
+    number = "123-456-7890";
 
-    cout << first << " " << middle << " " << last;
+    cout << name << "\n" << address << "\n" << number;
     return 0;
 }
